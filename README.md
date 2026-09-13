@@ -26,10 +26,10 @@ Voice dictation for macOS, powered by Gemini.
 
 ```bash
 # Direct install
-brew install --no-quarantine prakhar1989/tap/jigglypuff
+brew install prakhar1989/tap/jigglypuff
 
 # Or if you've already run `brew tap prakhar1989/tap`
-brew install --no-quarantine jigglypuff
+brew install jigglypuff
 ```
 
-> **Note:** Because Jigglypuff is not signed with a paid Apple Developer ID, macOS Gatekeeper applies quarantine flags to downloaded apps. Use `--no-quarantine` or run `xattr -cr /Applications/Jigglypuff.app` if macOS prevents it from opening on first launch.
+> **Note:** Because Jigglypuff is not signed with a paid Apple Developer ID, macOS Gatekeeper may show a security notice on first launch. If prompted, run `xattr -cr /Applications/Jigglypuff.app` or right-click the app and choose **Open**.

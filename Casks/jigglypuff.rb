@@ -1,6 +1,6 @@
 cask "jigglypuff" do
-  version "0.0.3"
-  sha256 "aaeeb6b705c73c7ddec58ea982a9885ca8a05eaace5eaebd0768b21a9ef29bb8"
+  version "0.0.4"
+  sha256 "eb3cd6a6a354852ebd5e742df7cea50ebc0a09e732196df0ca2400be747db8cb"
 
   url "https://github.com/prakhar1989/jigglypuff/releases/download/#{version}/Jigglypuff.dmg"
   name "Jigglypuff"
